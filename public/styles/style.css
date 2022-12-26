@@ -1,4 +1,44 @@
-*{padding: 0;
-margin: 0;
-box-sizing: border-box;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+li {
+  list-style-type: none;
+}
+ul {
+    padding: 13px;
+}
+.list-item {
+  background: darkcyan;
+  color: aqua;
+}
+.item {
+  background: linear-gradient(black, magenta);
+  font-size: 23px;
+  color: azure;
+}
+#first-item {
+  color: whitesmoke;
+  font-size: 32px;
+}
+.item:first-child {
+  color: crimson;
+  font-size: 32px;
+}
+.item:last-child {
+  color: blueviolet;
+  font-size: 43px;
+}
+.item:nth-child(2) {
+  color: bisque;
+  font-size: 12px;
+}
+ul a {
+  background-color: brown;
+
+}
+ul > a {
+  background-color: black;
+
 }
