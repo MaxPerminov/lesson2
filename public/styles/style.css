@@ -36,9 +36,7 @@ ul {
 }
 ul a {
   background-color: brown;
-
 }
 ul > a {
   background-color: black;
-
 }
